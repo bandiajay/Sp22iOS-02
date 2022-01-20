@@ -6,8 +6,8 @@ var four = 4
 var finalNumber = -four
 print(finalNumber)
 
-var number1 = (2,6)
-var number2 = (1,5)
+var number1 = (5,4)
+var number2 = (2,5)
 print(number1 <  number2 )
 
 
@@ -36,7 +36,7 @@ if(stars>=90) {
     print("You are a Pro Member")
 }
 else if (stars>=78 && stars<90){
-print("You are a Gold Member")
+    print("You are a Gold Member")
 }
 else if (stars>=65 && stars<78) {
     print("You are a VIP Member")
@@ -45,7 +45,7 @@ else {
     print("Default Plan")
 }
 
-
+//Binary operator '/' cannot be applied to operands of type 'Double' and 'Int'
 var  firstNumber : Int = 2
 var secondNumber : Int = 5
 print(secondNumber / firstNumber)
@@ -81,7 +81,7 @@ if male {
     }
 }
 
-let alphabet:Character="B"
+let alphabet:Character="b"
 switch alphabet {
     case "a","A":
         print("It is alphabet a or A")
