@@ -11,6 +11,8 @@ fact.count
 
 fact += ", it has a better memory management"
 
+fact.count
+
 dev.append(" by Apple")
 
 author.lowercased()
